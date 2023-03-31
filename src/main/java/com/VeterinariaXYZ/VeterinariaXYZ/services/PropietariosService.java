@@ -1,7 +1,6 @@
 package com.VeterinariaXYZ.VeterinariaXYZ.services;
 
 import com.VeterinariaXYZ.VeterinariaXYZ.dto.Propietarios;
-
 import java.util.List;
 
 public interface PropietariosService {

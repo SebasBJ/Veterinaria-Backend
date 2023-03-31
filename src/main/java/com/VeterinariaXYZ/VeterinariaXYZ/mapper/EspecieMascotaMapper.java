@@ -2,7 +2,6 @@ package com.VeterinariaXYZ.VeterinariaXYZ.mapper;
 
 import com.VeterinariaXYZ.VeterinariaXYZ.dto.EspecieMascota;
 import org.springframework.jdbc.core.RowMapper;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

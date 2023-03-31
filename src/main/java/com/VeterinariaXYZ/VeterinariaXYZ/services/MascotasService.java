@@ -2,7 +2,6 @@ package com.VeterinariaXYZ.VeterinariaXYZ.services;
 
 import com.VeterinariaXYZ.VeterinariaXYZ.dto.Mascotas;
 import org.springframework.transaction.annotation.Transactional;
-
 import java.util.List;
 
 public interface MascotasService {

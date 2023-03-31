@@ -9,7 +9,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
-
 import javax.sql.DataSource;
 import java.sql.PreparedStatement;
 import java.util.List;
@@ -25,7 +24,6 @@ public class MascotasDAOImpl implements MascotasDAO{
             "INNER JOIN propietarios_mascotas pro ON mas.nmid_propietarios = pro.nmid\n" +
             "INNER JOIN especie_mascotas esp ON mas.nmid_especie = esp.nmid";
     private static final String WHERE = SELECTESPECIE + " WHERE mas.nmid_propietarios = ?";
-    private static final String ORDERBY = " ORDER BY mas.dsnombre_mascota;";
     JdbcTemplate jdbcTemplate;
     private CacheManager cacheManager;
 

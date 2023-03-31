@@ -1,7 +1,6 @@
 package com.VeterinariaXYZ.VeterinariaXYZ.dao;
 
 import com.VeterinariaXYZ.VeterinariaXYZ.dto.Mascotas;
-
 import java.util.List;
 
 public interface MascotasDAO {

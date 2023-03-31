@@ -2,7 +2,6 @@ package com.VeterinariaXYZ.VeterinariaXYZ.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
-
 import java.io.Serializable;
 import java.sql.ResultSet;
 import java.sql.SQLException;
